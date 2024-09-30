@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+main {
+    border: solid;
+    border-width: 13px;
+    border-radius: 10px;
+    height: 67vh;
+    width: 19%;
+    background-color: rgba(24, 23, 23, 0.979);
+}
+
+img {
+    border-radius: 50px;
+    border: solid rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border-width: +5px;
+}
+
+h1 {
+    color: rgb(172, 34, 34);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: -13px;
+    -webkit-text-stroke: 0.2px black;
+}
+
+#ciudad {
+    color: rgb(216, 80, 80);
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    -webkit-text-stroke: 0.2px black;
+}
+
+#estudiante {
+    color: rgb(216, 80, 80);
+    text-align: center;
+    font-size: 14px;
+    -webkit-text-stroke: 0.2px black;
+}
+
+div {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding: 10px;
+}
+
+button {
+    background-color: rgb(54, 53, 53);
+    border-radius: 10px;
+    color: rgb(211, 44, 44);
+    font-weight: bold;
+    -webkit-text-stroke: 0.2px black;
+}
+
